@@ -5,7 +5,7 @@
 <body>
   <h3>Choose an author:</h3>
   <form method="get">
-    <input type="checkbox" name="author" value="Evgeny">Tan
+    <input type="checkbox" name="author" value="Evgeny Gor">Tan
     <input type="checkbox" name="author" value="Amir">Ali
     <input type="checkbox" name="author" value="Kumar">Kumar
     <input type="submit" value="Query">
