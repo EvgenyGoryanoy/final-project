@@ -6,8 +6,8 @@
   <h3>Choose an author:</h3>
   <form method="get">
 <<<<<<< HEAD
-    <input type="checkbox" name="author" value="evgeny Goryamoy ">Tan
-    <input type="checkbox" name="author" value="Stasiya Smorodina">Ali
+    <input type="checkbox" name="author" value="Evgeny Goryamoy ">Tan
+    <input type="checkbox" name="author" value="Stasiya Smo">Ali
 =======
     <input type="checkbox" name="author" value="Evgeny goranoy ">Tan
     <input type="checkbox" name="author" value="Amir">Ali
