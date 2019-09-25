@@ -12,7 +12,7 @@
     <input type="checkbox" name="author" value="Evgeny goranoy ">Tan
     <input type="checkbox" name="author" value="Amir">Ali
 >>>>>>> 3001b0066e6b277252efb9e15532613df98213b4
-    <input type="checkbox" name="author" value="Kumar">Kumar
+    <input type="checkbox" name="author" value="Lina">Kumar
     <input type="submit" value="Query">
   </form>
  
