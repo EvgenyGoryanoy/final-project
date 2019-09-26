@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8" errorPage="index.jsp" %>
+
 <html>
 <head>
     <link rel="icon" type="image/png" href="images/BCIcon32.png">
@@ -41,34 +43,23 @@
                 </button>
                 <a class="navbar-brand" href="index.html">Beyondcoding.net</a>
             </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="contact.jsp">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><% out.println( session.getAttribute("username").toString() ); %></a>
+                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                            <a class="dropdown-item" href="logout.jsp">Logout</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
-        </div>
     </nav>
 </div>
 
 <div align="center">
-    <h2>Login</h2>
-    </br>
-    <div class="col-xs-4 center">
-        <form action="loginCheck.jsp" method="post">
-            <fieldset>
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="Username">
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </fieldset>
-        </form>
-    </div>
+    <h2><% String a = session.getAttribute("username").toString(); out.println("Hello " + a); %></h2>
+
+</div>
 </div>
 </body>
 </html>
+

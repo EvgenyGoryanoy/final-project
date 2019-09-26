@@ -1,4 +1,4 @@
-<html>
+<!doctype html>
 <head>
     <link rel="icon" type="image/png" href="images/BCIcon32.png">
     <link rel="apple-touch-icon-precomposed" href="images/BCIcon32.png">
@@ -11,14 +11,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
-        .center {
+        .center
+        {
             float: none;
             margin-left: auto;
             margin-right: auto;
         }
-
         .carousel-inner > .item > img,
-        .carousel-inner > .item > a > img {
+        .carousel-inner > .item > a > img
+        {
             margin-left: auto;
             margin-right: auto;
         }
@@ -44,31 +45,14 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="contact.jsp">Contact</a></li>
+                    <li><a href="#/contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 </div>
 
-<div align="center">
-    <h2>Login</h2>
-    </br>
-    <div class="col-xs-4 center">
-        <form action="loginCheck.jsp" method="post">
-            <fieldset>
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="Username">
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </fieldset>
-        </form>
-    </div>
-</div>
+<h1>Error - Cannot log in</h1>
+
 </body>
 </html>
