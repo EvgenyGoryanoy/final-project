@@ -52,7 +52,7 @@
 </div>
 
 <div align="center">
-    <h2>Login</h2>
+    <h2>Login to heaven</h2>
     </br>
     <div class="col-xs-4 center">
         <form action="loginCheck.jsp" method="post">
@@ -72,3 +72,4 @@
 </div>
 </body>
 </html>
+<%-- some chages--%>
